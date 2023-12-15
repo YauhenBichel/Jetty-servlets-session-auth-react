@@ -1,0 +1,6 @@
+
+x	java:S116"\Rename this field "PASSWORD_REG_EXPR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü‡ıı8¯¸¢ğÅ1
+>
+java:S1170"!Make this final field static too.(ü‡ıı8Ç¸¢ğÅ1
+Y
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(ü‡ıı8ÅíõÅ1

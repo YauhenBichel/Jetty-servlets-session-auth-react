@@ -1,0 +1,19 @@
+
+}
+java:S1192*"`Define a constant instead of duplicating this literal "Review: dbConnection successful" 5 times.(“å´ö8¬Æ­Æ1
+W
+java:S1141+"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8“¬Æ­Æ1
+X
+java:S1141€"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8–¬Æ­Æ1
+l
+java:S2095,"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(û¡‚ª8Ä±Æ­Æ1
+r
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(€½ëøÿÿÿÿ8Î±Æ­Æ1
+r
+java:S2095É"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ñº‚§ÿÿÿÿÿ8¨±Æ­Æ1
+k
+java:S2095^"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÎÃ¤8¥±Æ­Æ1
+r
+java:S2095§"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•«¢Ãùÿÿÿÿ8ª±Æ­Æ1
+m
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(©“¬8ŞÖÆ­Æ1

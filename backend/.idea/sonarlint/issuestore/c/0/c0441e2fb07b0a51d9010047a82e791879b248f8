@@ -1,0 +1,9 @@
+
+g	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(ûºŞ÷øÿÿÿÿ8Ÿ±‰­Æ1
+g	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(çÚìùÿÿÿÿ8 ±‰­Æ1
+|
+java:S1488D"_Immediately return this expression instead of assigning it to the temporary variable "reviews".(ÜñËï8¢±‰­Æ1
+^
+java:S3457%"AFormat specifiers should be used instead of string concatenation.(”‚½ù8É±‰­Æ1
+^
+java:S34576"AFormat specifiers should be used instead of string concatenation.(÷ÊĞ„8Ò±‰­Æ1

@@ -1,0 +1,421 @@
+[18:42:24:246 @31 main: Data loading: started
+[18:42:24:344 @50 main: Hotels loading: started
+[18:42:24:627 @29 main: File path is input/hotels/hotels.json
+[18:42:25:000 @41 main: Hotel files are parsed. Number of hotels is 157
+[18:42:25:001 @55 main: Hotels loading: done
+[18:42:25:004 @59 main: Threads number: 3
+[18:42:25:006 @62 main: Reviews loading: started
+[18:42:25:026 @111 main: Worker working on input/reviews finished work
+[18:42:25:031 @54 pool-2-thread-1: File path is input/reviews/SanCarlos/review200649.json
+[18:42:25:071 @54 pool-2-thread-2: File path is input/reviews/SanCarlos/review14781.json
+[18:42:25:074 @111 main: Worker working on input/reviews/SanCarlos finished work
+[18:42:25:079 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review919198.json
+[18:42:25:084 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review912982.json
+[18:42:25:084 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review4432027.json
+[18:42:25:085 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review662368.json
+[18:42:25:086 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review1606984.json
+[18:42:25:091 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review1321986.json
+[18:42:25:091 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review533579.json
+[18:42:25:097 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review50993.json
+[18:42:25:106 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review5830.json
+[18:42:25:108 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review476728.json
+[18:42:25:113 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review20701.json
+[18:42:25:114 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review910225.json
+[18:42:25:119 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review2336.json
+[18:42:25:119 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review22510.json
+[18:42:25:120 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review26945.json
+[18:42:25:126 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review11509.json
+[18:42:25:127 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review8090040.json
+[18:42:25:129 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review23383.json
+[18:42:25:129 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review51116.json
+[18:42:25:133 @111 main: Worker working on input/reviews/SanFrancisco finished work
+[18:42:25:134 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review1145267.json
+[18:42:25:134 @111 main: Worker working on input/reviews/SanFrancisco/SFOAirport finished work
+[18:42:25:137 @111 main: Worker working on input/reviews/SanFrancisco/Hostels finished work
+[18:42:25:146 @111 main: Worker working on input/reviews/SanFrancisco/UnionSq finished work
+[18:42:25:147 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review7713.json
+[18:42:25:149 @111 main: Worker working on input/reviews/SanFrancisco/FishermansWharf finished work
+[18:42:25:150 @111 main: Worker working on input/reviews/SanFrancisco/FinancialDistrict finished work
+[18:42:25:151 @111 main: Worker working on input/reviews/Emeryville finished work
+[18:42:25:152 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review918527.json
+[18:42:25:164 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review6505.json
+[18:42:25:172 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review904482.json
+[18:42:25:174 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review18437.json
+[18:42:25:177 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review881699.json
+[18:42:25:191 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review12539.json
+[18:42:25:204 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review12493.json
+[18:42:25:349 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review1515923.json
+[18:42:25:362 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review522505.json
+[18:42:25:370 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review18200.json
+[18:42:25:386 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review876315.json
+[18:42:25:412 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review693658.json
+[18:42:25:442 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review287665.json
+[18:42:25:447 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review6666.json
+[18:42:25:451 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review7262522.json
+[18:42:25:452 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review790530.json
+[18:42:25:468 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review25860.json
+[18:42:25:482 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review42336.json
+[18:42:25:499 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review890830.json
+[18:42:25:506 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review7942.json
+[18:42:25:515 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review21073.json
+[18:42:25:524 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review6271901.json
+[18:42:25:544 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review5338.json
+[18:42:25:550 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review897225.json
+[18:42:25:585 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review41833.json
+[18:42:25:632 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review789395.json
+[18:42:25:681 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review1766605.json
+[18:42:25:684 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review25271.json
+[18:42:25:691 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review225819.json
+[18:42:25:705 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review808403.json
+[18:42:25:707 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review24620.json
+[18:42:25:710 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review15254.json
+[18:42:25:713 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review18962.json
+[18:42:25:715 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review1588312.json
+[18:42:25:717 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review8638.json
+[18:42:25:731 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review6706717.json
+[18:42:25:732 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review296720.json
+[18:42:25:740 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review444672.json
+[18:42:25:743 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review8647196.json
+[18:42:25:745 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review11523.json
+[18:42:25:746 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review791769.json
+[18:42:25:750 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review5361249.json
+[18:42:25:750 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review891239.json
+[18:42:25:753 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review856888.json
+[18:42:25:759 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review5875.json
+[18:42:25:876 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review23406.json
+[18:42:25:879 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review287112.json
+[18:42:25:882 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review17616.json
+[18:42:25:910 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review23774.json
+[18:42:25:911 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review2406.json
+[18:42:25:915 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review5984.json
+[18:42:25:915 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review13950.json
+[18:42:25:919 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review1146383.json
+[18:42:25:967 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review27274.json
+[18:42:25:920 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review14451.json
+[18:42:25:984 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review438727.json
+[18:42:25:985 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review14781.json
+[18:42:25:991 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review283107.json
+[18:42:25:991 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review19035.json
+[18:42:25:993 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review26760.json
+[18:42:26:015 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review5045.json
+[18:42:26:026 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review16552.json
+[18:42:26:027 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review22148.json
+[18:42:26:033 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review9043627.json
+[18:42:26:042 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review855749.json
+[18:42:26:042 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review437098.json
+[18:42:26:091 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review894295.json
+[18:42:26:094 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review519729.json
+[18:42:26:113 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review23581.json
+[18:42:26:161 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review18320.json
+[18:42:26:192 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review11793.json
+[18:42:26:208 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review3552.json
+[18:42:26:214 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review578899.json
+[18:42:26:241 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review3308.json
+[18:42:26:216 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review915510.json
+[18:42:26:261 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review20191.json
+[18:42:26:266 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review40682.json
+[18:42:26:266 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review2536795.json
+[18:42:26:280 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review790579.json
+[18:42:26:288 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review15135.json
+[18:42:26:288 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review18204.json
+[18:42:26:306 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review883306.json
+[18:42:26:306 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review19842.json
+[18:42:26:313 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review57255.json
+[18:42:26:313 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review7635.json
+[18:42:26:333 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review24540.json
+[18:42:26:351 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review564858.json
+[18:42:26:355 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review5425.json
+[18:42:26:393 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review1208461.json
+[18:42:26:396 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review11771.json
+[18:42:26:407 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review455591.json
+[18:42:26:411 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/review14553.json
+[18:42:26:485 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review118232.json
+[18:42:26:507 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review28200.json
+[18:42:26:509 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/review5901.json
+[18:42:26:509 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review15769.json
+[18:42:26:521 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/review897333.json
+[18:42:26:526 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/SFOAirport/review12345.json
+[18:42:26:532 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/SFOAirport/review23838.json
+[18:42:26:532 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/SFOAirport/review40443.json
+[18:42:26:539 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/SFOAirport/review4705.json
+[18:42:26:541 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/SFOAirport/review524164.json
+[18:42:26:543 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/SFOAirport/review599536.json
+[18:42:26:543 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/SFOAirport/review1139289.json
+[18:42:26:545 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/SFOAirport/review4044.json
+[18:42:26:547 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/SFOAirport/review2981.json
+[18:42:26:549 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/SFOAirport/review26500.json
+[18:42:26:550 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/SFOAirport/review7655.json
+[18:42:26:552 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/SFOAirport/review16955.json
+[18:42:26:553 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/SFOAirport/review487.json
+[18:42:26:563 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/SFOAirport/review9329.json
+[18:42:26:566 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/SFOAirport/review1110785.json
+[18:42:26:569 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/SFOAirport/review28502.json
+[18:42:26:572 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/Hostels/review9491356.json
+[18:42:26:619 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/Hostels/review14772741.json
+[18:42:26:622 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/UnionSq/review8737.json
+[18:42:26:626 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/UnionSq/review150946.json
+[18:42:26:630 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/UnionSq/review23395.json
+[18:42:26:651 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/UnionSq/review20547.json
+[18:42:26:742 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/UnionSq/review5883.json
+[18:42:26:746 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/UnionSq/review25622.json
+[18:42:26:750 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/UnionSq/review360.json
+[18:42:26:752 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/UnionSq/review24468.json
+[18:42:26:774 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/FishermansWharf/review476728.json
+[18:42:26:801 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/FishermansWharf/review22500.json
+[18:42:26:810 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/FishermansWharf/review1047.json
+[18:42:26:849 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/FishermansWharf/review20488.json
+[18:42:26:852 @54 pool-2-thread-3: File path is input/reviews/SanFrancisco/FishermansWharf/review24625.json
+[18:42:26:880 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/FishermansWharf/review578899.json
+[18:42:26:884 @54 pool-2-thread-2: File path is input/reviews/SanFrancisco/FishermansWharf/review422927.json
+[18:42:26:884 @54 pool-2-thread-1: File path is input/reviews/SanFrancisco/FinancialDistrict/review4302.json
+[18:42:26:888 @54 pool-2-thread-2: File path is input/reviews/Emeryville/review10323.json
+[18:42:26:910 @54 pool-2-thread-1: File path is input/reviews/Emeryville/review547988.json
+[18:42:26:912 @54 pool-2-thread-2: File path is input/reviews/Emeryville/review17280.json
+[18:42:26:928 @54 pool-2-thread-1: File path is input/reviews/Emeryville/review15674041.json
+[18:42:27:018 @65 main: Reviews loading: done
+[18:42:27:019 @33 main: Data loading: map hotel review
+[18:42:27:033 @35 main: Data loading: map word review
+[18:42:29:015 @37 main: Data loading: map word hotel
+[18:42:29:019 @39 main: Data loading: done
+[18:42:33:470 @24 main: dbConnection successful
+[18:42:33:545 @29 main: java.sql.SQLSyntaxErrorException: Table 'users' already exists
+[18:42:33:554 @34 main: java.sql.SQLSyntaxErrorException: Table 'hotels' already exists
+[18:42:33:562 @39 main: java.sql.SQLSyntaxErrorException: Table 'reviews' already exists
+[18:42:34:393 @43 main: locate http servlet bichel.yauhen.hotel.api.controller.RegistrationServlet
+[18:42:34:409 @30 main: Added servlet: bichel.yauhen.hotel.api.controller.RegistrationServlet
+[18:42:34:421 @43 main: locate http servlet bichel.yauhen.hotel.api.controller.LoginServlet
+[18:42:34:422 @30 main: Added servlet: bichel.yauhen.hotel.api.controller.LoginServlet
+[18:42:34:423 @43 main: locate http servlet bichel.yauhen.hotel.api.controller.LogoutServlet
+[18:42:34:425 @30 main: Added servlet: bichel.yauhen.hotel.api.controller.LogoutServlet
+[18:42:34:426 @43 main: locate http servlet bichel.yauhen.hotel.api.controller.HotelsByWordServlet
+[18:42:34:430 @30 main: Added servlet: bichel.yauhen.hotel.api.controller.HotelsByWordServlet
+[18:42:34:430 @43 main: locate http servlet bichel.yauhen.hotel.api.controller.HotelServlet
+[18:42:34:431 @30 main: Added servlet: bichel.yauhen.hotel.api.controller.HotelServlet
+[18:42:34:432 @43 main: locate http servlet bichel.yauhen.hotel.api.controller.HotelReviewServlet
+[18:42:34:457 @30 main: Added servlet: bichel.yauhen.hotel.api.controller.HotelReviewServlet
+[18:42:34:461 @44 main: Starting Jetty server
+[18:44:47:168 @54 qtp1073741635-22: Auth
+[18:44:47:235 @94 qtp1073741635-22: Authenticate: dbConnection successful
+[18:44:47:547 @64 qtp1073741635-22: Successfully authenticated the user jenya@gmail.com
+[18:44:52:823 @50 qtp1073741635-19: Process resource '/hotels-by-word' to find a word
+[18:44:52:835 @101 qtp1073741635-19: find hotels with word hotel
+[18:44:52:836 @157 qtp1073741635-19: Hotels with word hotel
+[18:44:56:275 @50 qtp1073741635-20: Process resource hotelInfo
+[18:44:56:275 @91 qtp1073741635-26: Process resource '/hotel-review' to get all reviews
+[18:44:56:276 @49 qtp1073741635-20: find hotel with id 1110785
+[18:44:56:276 @143 qtp1073741635-20: Find hotel by hotelId 1110785
+[18:44:56:277 @81 qtp1073741635-20: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:44:56:337 @166 qtp1073741635-26: Review: dbConnection successful
+[18:44:56:338 @50 qtp1073741635-23: Process resource hotelInfo
+[18:44:56:339 @49 qtp1073741635-23: find hotel with id 1110785
+[18:44:56:342 @143 qtp1073741635-23: Find hotel by hotelId 1110785
+[18:44:56:343 @81 qtp1073741635-23: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:44:56:400 @120 qtp1073741635-26: Reviews size: 6
+[18:44:56:447 @91 qtp1073741635-26: Process resource '/hotel-review' to get all reviews
+[18:44:56:460 @166 qtp1073741635-26: Review: dbConnection successful
+[18:44:56:603 @120 qtp1073741635-26: Reviews size: 6
+[18:45:32:489 @46 qtp1073741635-23: Update review
+[18:45:32:501 @127 qtp1073741635-23: Review: dbConnection successful
+[18:45:32:577 @93 qtp1073741635-23: Review: dbConnection successful
+[18:45:38:850 @91 qtp1073741635-22: Process resource '/hotel-review' to get all reviews
+[18:45:38:860 @50 qtp1073741635-26: Process resource hotelInfo
+[18:45:38:861 @49 qtp1073741635-26: find hotel with id 1110785
+[18:45:38:871 @143 qtp1073741635-26: Find hotel by hotelId 1110785
+[18:45:38:872 @81 qtp1073741635-26: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:45:38:907 @50 qtp1073741635-23: Process resource hotelInfo
+[18:45:38:907 @49 qtp1073741635-23: find hotel with id 1110785
+[18:45:38:907 @143 qtp1073741635-23: Find hotel by hotelId 1110785
+[18:45:38:908 @81 qtp1073741635-23: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:45:39:022 @166 qtp1073741635-22: Review: dbConnection successful
+[18:45:39:037 @120 qtp1073741635-22: Reviews size: 6
+[18:45:39:057 @91 qtp1073741635-19: Process resource '/hotel-review' to get all reviews
+[18:45:39:174 @166 qtp1073741635-19: Review: dbConnection successful
+[18:45:39:184 @120 qtp1073741635-19: Reviews size: 6
+[18:45:47:684 @54 qtp1073741635-22: Auth
+[18:45:47:687 @94 qtp1073741635-22: Authenticate: dbConnection successful
+[18:45:47:700 @64 qtp1073741635-22: Successfully authenticated the user jenya@gmail.com
+[18:45:49:762 @50 qtp1073741635-26: Process resource '/hotels-by-word' to find a word
+[18:45:49:762 @101 qtp1073741635-26: find hotels with word hotel
+[18:45:49:763 @157 qtp1073741635-26: Hotels with word hotel
+[18:45:51:089 @50 qtp1073741635-19: Process resource hotelInfo
+[18:45:51:089 @91 qtp1073741635-22: Process resource '/hotel-review' to get all reviews
+[18:45:51:090 @49 qtp1073741635-19: find hotel with id 1110785
+[18:45:51:115 @143 qtp1073741635-19: Find hotel by hotelId 1110785
+[18:45:51:116 @81 qtp1073741635-19: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:45:51:136 @50 qtp1073741635-19: Process resource hotelInfo
+[18:45:51:137 @49 qtp1073741635-19: find hotel with id 1110785
+[18:45:51:137 @143 qtp1073741635-19: Find hotel by hotelId 1110785
+[18:45:51:137 @81 qtp1073741635-19: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:45:51:181 @166 qtp1073741635-22: Review: dbConnection successful
+[18:45:51:188 @120 qtp1073741635-22: Reviews size: 6
+[18:45:51:252 @91 qtp1073741635-22: Process resource '/hotel-review' to get all reviews
+[18:45:51:254 @166 qtp1073741635-22: Review: dbConnection successful
+[18:45:51:262 @120 qtp1073741635-22: Reviews size: 6
+[18:47:09:875 @30 qtp1073741635-20: Add a review
+[18:47:09:988 @42 qtp1073741635-20: Review: dbConnection successful
+[18:47:10:024 @91 qtp1073741635-23: Process resource '/hotel-review' to get all reviews
+[18:47:10:127 @166 qtp1073741635-23: Review: dbConnection successful
+[18:47:10:147 @120 qtp1073741635-23: Reviews size: 7
+[18:47:48:176 @133 qtp1073741635-19: Process resource '/hotel-review' to delete review
+[18:47:48:292 @200 qtp1073741635-19: Review: dbConnection successful
+[18:47:48:416 @50 qtp1073741635-25: Process resource hotelInfo
+[18:47:48:424 @49 qtp1073741635-25: find hotel with id 1110785
+[18:47:48:424 @143 qtp1073741635-25: Find hotel by hotelId 1110785
+[18:47:48:425 @81 qtp1073741635-25: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:47:48:431 @91 qtp1073741635-23: Process resource '/hotel-review' to get all reviews
+[18:47:48:447 @50 qtp1073741635-25: Process resource hotelInfo
+[18:47:48:449 @49 qtp1073741635-25: find hotel with id 1110785
+[18:47:48:458 @143 qtp1073741635-25: Find hotel by hotelId 1110785
+[18:47:48:459 @81 qtp1073741635-25: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:47:48:563 @166 qtp1073741635-23: Review: dbConnection successful
+[18:47:48:572 @120 qtp1073741635-23: Reviews size: 6
+[18:47:48:604 @91 qtp1073741635-26: Process resource '/hotel-review' to get all reviews
+[18:47:48:672 @166 qtp1073741635-26: Review: dbConnection successful
+[18:47:48:680 @120 qtp1073741635-26: Reviews size: 6
+[18:48:05:951 @46 qtp1073741635-25: Update review
+[18:48:06:019 @127 qtp1073741635-25: Review: dbConnection successful
+[18:48:06:024 @93 qtp1073741635-25: Review: dbConnection successful
+[18:48:50:192 @50 qtp1073741635-26: Process resource hotelInfo
+[18:48:50:192 @91 qtp1073741635-23: Process resource '/hotel-review' to get all reviews
+[18:48:50:194 @49 qtp1073741635-26: find hotel with id 1110785
+[18:48:50:195 @143 qtp1073741635-26: Find hotel by hotelId 1110785
+[18:48:50:196 @81 qtp1073741635-26: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:48:50:216 @50 qtp1073741635-26: Process resource hotelInfo
+[18:48:50:216 @49 qtp1073741635-26: find hotel with id 1110785
+[18:48:50:217 @143 qtp1073741635-26: Find hotel by hotelId 1110785
+[18:48:50:217 @81 qtp1073741635-26: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:48:50:341 @166 qtp1073741635-23: Review: dbConnection successful
+[18:48:50:358 @120 qtp1073741635-23: Reviews size: 6
+[18:48:50:417 @91 qtp1073741635-24: Process resource '/hotel-review' to get all reviews
+[18:48:50:458 @166 qtp1073741635-24: Review: dbConnection successful
+[18:48:50:466 @120 qtp1073741635-24: Reviews size: 6
+[18:49:08:886 @50 qtp1073741635-26: Process resource hotelInfo
+[18:49:08:886 @91 qtp1073741635-24: Process resource '/hotel-review' to get all reviews
+[18:49:08:886 @49 qtp1073741635-26: find hotel with id 1110785
+[18:49:08:887 @143 qtp1073741635-26: Find hotel by hotelId 1110785
+[18:49:08:888 @81 qtp1073741635-26: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:49:08:938 @50 qtp1073741635-23: Process resource hotelInfo
+[18:49:08:939 @49 qtp1073741635-23: find hotel with id 1110785
+[18:49:08:940 @143 qtp1073741635-23: Find hotel by hotelId 1110785
+[18:49:08:940 @81 qtp1073741635-23: Hotel: 
+********************
+Bay Landing San Francisco Airport Hotel: 1110785
+1550 Bayshore Hwy
+Burlingame, CA
+, location=Location{latitude='37.597986', longitude='-122.366240'}
+[18:49:09:022 @166 qtp1073741635-24: Review: dbConnection successful
+[18:49:09:053 @120 qtp1073741635-24: Reviews size: 6
+[18:49:09:099 @91 qtp1073741635-25: Process resource '/hotel-review' to get all reviews
+[18:49:09:354 @166 qtp1073741635-25: Review: dbConnection successful
+[18:49:09:443 @120 qtp1073741635-25: Reviews size: 6
+[18:49:19:027 @54 qtp1073741635-23: Auth
+[18:49:19:119 @94 qtp1073741635-23: Authenticate: dbConnection successful
+[18:49:19:177 @64 qtp1073741635-23: Successfully authenticated the user jenya@gmail.com
+[18:49:22:107 @50 qtp1073741635-26: Process resource '/hotels-by-word' to find a word
+[18:49:22:108 @101 qtp1073741635-26: find hotels with word hotel
+[18:49:22:109 @157 qtp1073741635-26: Hotels with word hotel
+[18:49:24:594 @91 qtp1073741635-25: Process resource '/hotel-review' to get all reviews
+[18:49:24:595 @50 qtp1073741635-23: Process resource hotelInfo
+[18:49:24:600 @49 qtp1073741635-23: find hotel with id 11771
+[18:49:24:602 @143 qtp1073741635-23: Find hotel by hotelId 11771
+[18:49:24:602 @81 qtp1073741635-23: Hotel: 
+********************
+Hotel Diva: 11771
+440 Geary St
+San Francisco, CA
+, location=Location{latitude='37.787160', longitude='-122.410490'}
+[18:49:24:628 @50 qtp1073741635-26: Process resource hotelInfo
+[18:49:24:629 @49 qtp1073741635-26: find hotel with id 11771
+[18:49:24:630 @143 qtp1073741635-26: Find hotel by hotelId 11771
+[18:49:24:637 @81 qtp1073741635-26: Hotel: 
+********************
+Hotel Diva: 11771
+440 Geary St
+San Francisco, CA
+, location=Location{latitude='37.787160', longitude='-122.410490'}
+[18:49:24:727 @166 qtp1073741635-25: Review: dbConnection successful
+[18:49:24:737 @120 qtp1073741635-25: Reviews size: 1
+[18:49:24:761 @91 qtp1073741635-24: Process resource '/hotel-review' to get all reviews
+[18:49:24:806 @166 qtp1073741635-24: Review: dbConnection successful
+[18:49:24:809 @120 qtp1073741635-24: Reviews size: 1
+[19:00:59:098 @133 qtp1073741635-29: Process resource '/hotel-review' to delete review
+[19:00:59:197 @200 qtp1073741635-29: Review: dbConnection successful
+[19:01:05:742 @91 qtp1073741635-25: Process resource '/hotel-review' to get all reviews
+[19:01:05:743 @50 qtp1073741635-23: Process resource hotelInfo
+[19:01:05:743 @49 qtp1073741635-23: find hotel with id 11771
+[19:01:05:744 @143 qtp1073741635-23: Find hotel by hotelId 11771
+[19:01:05:744 @81 qtp1073741635-23: Hotel: 
+********************
+Hotel Diva: 11771
+440 Geary St
+San Francisco, CA
+, location=Location{latitude='37.787160', longitude='-122.410490'}
+[19:01:05:808 @50 qtp1073741635-22: Process resource hotelInfo
+[19:01:05:813 @49 qtp1073741635-22: find hotel with id 11771
+[19:01:05:816 @143 qtp1073741635-22: Find hotel by hotelId 11771
+[19:01:05:817 @81 qtp1073741635-22: Hotel: 
+********************
+Hotel Diva: 11771
+440 Geary St
+San Francisco, CA
+, location=Location{latitude='37.787160', longitude='-122.410490'}
+[19:01:05:899 @166 qtp1073741635-25: Review: dbConnection successful
+[19:01:05:905 @120 qtp1073741635-25: Reviews size: 0
+[19:01:05:933 @91 qtp1073741635-24: Process resource '/hotel-review' to get all reviews
+[19:01:05:967 @166 qtp1073741635-24: Review: dbConnection successful
+[19:01:05:971 @120 qtp1073741635-24: Reviews size: 0

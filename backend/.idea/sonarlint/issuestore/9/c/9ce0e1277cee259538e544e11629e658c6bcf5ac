@@ -1,0 +1,7 @@
+
+ô
+java:S1104"|Make OBTAIN_EXISTING_SESSION_AND_NOT_CREATE_A_NEW_ONE a static final constant or non-public and provide accessors if needed.(ﬁÌÎŸ8ª¶”Û≈1
+s
+java:S1444"VMake this "public static OBTAIN_EXISTING_SESSION_AND_NOT_CREATE_A_NEW_ONE" field final(ﬁÌÎŸ8¿¶”Û≈1
+ò
+java:S3008"{Rename this field "OBTAIN_EXISTING_SESSION_AND_NOT_CREATE_A_NEW_ONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ﬁÌÎŸ8…¶”Û≈1

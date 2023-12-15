@@ -1,0 +1,16 @@
+.login {
+    padding: 100px 0;
+    margin: 0 10px;
+}
+
+@media all and (min-width: 480px) {
+    .login {
+        padding: 100px 0;
+        margin: 0 10px;
+    }
+
+    .login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}

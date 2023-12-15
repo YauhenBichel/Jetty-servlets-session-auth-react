@@ -1,0 +1,153 @@
+package bichel.yauhen.hotel.api.repository;
+
+import bichel.yauhen.hotel.api.db.SqlConnectionPool;
+import bichel.yauhen.hotel.api.model.Account;
+import bichel.yauhen.hotel.api.utils.DateTimeFormatterUtils;
+import bichel.yauhen.hotel.api.utils.HashUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Optional;
+
+/**
+ * Jdbc implementation of account repository
+ */
+public class JdbcAccountRepository implements AccountRepository {
+
+    private static final Logger logger = LogManager.getLogger(JdbcAccountRepository.class);
+    private final SqlConnectionPool sqlConnectionPool;
+
+    public JdbcAccountRepository(SqlConnectionPool sqlConnectionPool) {
+        this.sqlConnectionPool = sqlConnectionPool;
+    }
+
+    /**
+     * Registers a new user, placing the username, password hash, and
+     * salt into the database.
+     *
+     * @param account - Account
+     */
+    @Override
+    public Optional<Account> create(Account account) {
+        String usersalt = HashUtils.encodeHex(HashUtils.generateSalt(), 32); // salt
+        String passhash = HashUtils.getSHA256Hash(account.getPassword(), usersalt); // hashed password
+
+        Account dbAccount = new Account();
+
+        PreparedStatement statement = null;
+        try (Connection connection = sqlConnectionPool.getConnection()) {
+            logger.info("Register: dbConnection successful");
+            try {
+                statement = connection.prepareStatement(AccountPreparedStatements.REGISTER_SQL,
+                        Statement.RETURN_GENERATED_KEYS);
+                statement.setString(1, account.getUsername());
+                statement.setString(2, passhash);
+                statement.setString(3, usersalt);
+                statement.setString(4, account.getCreated().toString());
+                statement.setString(5, account.getModified().toString());
+
+                int affectedRows = statement.executeUpdate();
+
+                if (affectedRows == 0) {
+                    throw new SQLException("Creating user failed, no rows affected.");
+                }
+
+                try (ResultSet generatedKeys = statement.getGeneratedKeys()) {
+                    if (generatedKeys.next()) {
+                        dbAccount.setId(generatedKeys.getInt(1));
+                        dbAccount.setPassword(passhash);
+                        dbAccount.setUsername(account.getUsername());
+                        dbAccount.setCreated(account.getCreated());
+                        dbAccount.setModified(account.getModified());
+                    }
+                    else {
+                        throw new SQLException("Creating user failed, no ID obtained.");
+                    }
+                }
+
+                statement.close();
+            } catch (SQLException ex) {
+                logger.error(ex);
+                return Optional.empty();
+            }
+            finally {
+                sqlConnectionPool.releaseConnection(connection);
+            }
+        } catch (SQLException ex) {
+            logger.error(ex);
+            return Optional.empty();
+        }
+
+        return Optional.of(dbAccount);
+    }
+
+    public Optional<Account> get(Account account) {
+        PreparedStatement statement;
+        try (Connection connection = sqlConnectionPool.getConnection()) {
+            logger.info("Authenticate: dbConnection successful");
+            statement = connection.prepareStatement(AccountPreparedStatements.AUTH_SQL,
+                    Statement.RETURN_GENERATED_KEYS);
+            String usersalt = getSalt(connection, account.getUsername());
+            String passhash = HashUtils.getSHA256Hash(account.getPassword(), usersalt);
+
+            statement.setString(1, account.getUsername());
+            statement.setString(2, passhash);
+            ResultSet resultSet = statement.executeQuery();
+            Account dbAccount = null;
+            while(resultSet.next()) {
+                dbAccount = new Account();
+                dbAccount.setId(resultSet.getInt("userid"));
+                dbAccount.setUsername(resultSet.getString("username"));
+                dbAccount.setPassword(resultSet.getString("password"));
+                dbAccount.setCreated(LocalDateTime.parse(resultSet.getString("created"), DateTimeFormatterUtils.toDateTimeFormatter()));
+                dbAccount.setModified(LocalDateTime.parse(resultSet.getString("modified"), DateTimeFormatterUtils.toDateTimeFormatter()));
+            }
+
+            if(!statement.isClosed()) {
+                statement.close();
+            }
+
+            return dbAccount == null ? Optional.empty() : Optional.of(dbAccount);
+
+        } catch (SQLException ex) {
+            logger.error(ex);
+        }
+        return Optional.empty();
+    }
+
+    /**
+     * Gets the salt for a specific user.
+     *
+     * @param connection - active database connection
+     * @param user       - which user to retrieve salt for
+     * @return salt for the specified user or null if user does not exist
+     * @throws SQLException if any issues with database connection
+     */
+    private String getSalt(Connection connection, String user) {
+        String salt = null;
+        try (PreparedStatement statement = connection.prepareStatement(AccountPreparedStatements.SALT_SQL)) {
+            statement.setString(1, user);
+            ResultSet results = statement.executeQuery();
+            if (results.next()) {
+                salt = results.getString("usersalt");
+                return salt;
+            }
+        } catch (SQLException ex) {
+            logger.error(ex);
+        }
+
+        return salt;
+    }
+
+    @Override
+    public Optional<Account> remove(Account account) {
+        return Optional.empty();
+    }
+}

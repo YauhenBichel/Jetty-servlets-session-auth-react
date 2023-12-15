@@ -1,0 +1,8 @@
+diff --git a/node_modules/react-redux/es/utils/reactBatchedUpdates.js b/node_modules/react-redux/es/utils/reactBatchedUpdates.js
+index dfb07eb..b6dc0c4 100644
+--- a/node_modules/react-redux/es/utils/reactBatchedUpdates.js
++++ b/node_modules/react-redux/es/utils/reactBatchedUpdates.js
+@@ -1 +1 @@
+-export { unstable_batchedUpdates } from 'react-dom';
+\ No newline at end of file
++//export { unstable_batchedUpdates } from 'react-dom';
